@@ -1,6 +1,6 @@
 const { google } = require('googleapis');
 const { JWT } = require('google-auth-library');
-const serviceAccount = require('./taste-380101-cd773a196ea7.json');
+const serviceAccount = require('./taste-380101-0dcc6ac72035.json');
 
 async function getAllEvents() {
   try {
