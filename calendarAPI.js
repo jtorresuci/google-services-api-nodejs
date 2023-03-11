@@ -2,7 +2,7 @@ const { google } = require('googleapis');
 const { JWT } = require('google-auth-library');
 
 // Load the service account credentials from a JSON file
-const serviceAccount = require('./taste-380101-cd773a196ea7.json');
+const serviceAccount = require('./taste-380101-0dcc6ac72035.json');
 
 // Set up the JWT client with the service account credentials
 const jwtClient = new JWT({
